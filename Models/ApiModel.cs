@@ -5,7 +5,5 @@ namespace webIntro_dotnet.Models
         public string Name { get; set; }
         public int HeightInch { get; set; }
         public string Motto { get; set; }
-    }
-
-    
+    } 
 }
