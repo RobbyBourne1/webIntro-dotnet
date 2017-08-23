@@ -10,14 +10,15 @@ namespace webIntro_dotnet.Controllers
 {
     public class UserIDController : Controller
     {
+        [Route("/userid/{id}")]
         public IActionResult Index()
         {
             return View();
         }
 
-        public string Index(int ID)
-        {
-            return $"Hi User {ID}";
-        }
+        // public string UserID(int ID)
+        // {
+        //     return $"Hi User {ID}";
+        // }
     }
 }
