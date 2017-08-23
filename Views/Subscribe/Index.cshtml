@@ -1,0 +1,14 @@
+
+<h1>Subscribe Below</h1>
+
+@if (ViewData["Subscribe"] != null)
+{
+    <h3>Thank you for subscribing, @ViewData["Subscribe"]</h3>
+    <p>Here is the email you added, @ViewData["Email"]</p>
+}
+
+<form asp-controller="Subscribe" asp-action="Index" method="post">
+    <input type="text" name="subscribe" placeholder="Name">
+    <input type="email" name="email" placeholder="Email">
+    <button type="submit">Submit</button>
+</form>
