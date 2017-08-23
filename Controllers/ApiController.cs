@@ -24,9 +24,9 @@ namespace webIntro_dotnet.Controllers
             return Json(person); 
         }
 
-        public IActionResult ApiModel()
-        {
-            return Json(new ApiModel() { Name = "Robby", HeightInch = 70, Motto = "YOLO"});
-        }
+        // public IActionResult ApiModel()
+        // {
+        //     return Json(new ApiModel() { Name = "Robby", HeightInch = 70, Motto = "YOLO"});
+        // }
     }
 }
